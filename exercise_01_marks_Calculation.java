@@ -13,15 +13,15 @@ public class exercise_01_marks_Calculation {
         System.out.println("Calculate Marks of Student ");
         System.out.println("Enter Marks of  ");
         System.out.println("Subject 'Hindee' (out of 100)");
-        float sub1 = scm.nextInt();
+        float sub1 = scm.nextFloat();
         System.out.println("Subject 'English (out of 100)");
-        float sub2 = scm.nextInt();
+        float sub2 = scm.nextFloat();
         System.out.println("Subject 'Science (out of 100)");
-        float sub3 = scm.nextInt();
+        float sub3 = scm.nextFloat();
         System.out.println("Subject 'Computer' (out of 100)");
-        float sub4 = scm.nextInt();
+        float sub4 = scm.nextFloat();
         System.out.println("Subject 'Environment (out of 100)");
-        float sub5 = scm.nextInt();
+        float sub5 = scm.nextFloat();
 
         float marks = sub1+sub2+sub3+sub4+sub5; // first calculate all marks in a variable
 
